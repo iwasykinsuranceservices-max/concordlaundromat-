@@ -8,45 +8,54 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 
   <style>
-    body { background: #ffffff; }
+    body {
+      background: #ffffff;
+      color: #111;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+    }
 
     .logo {
-      max-width: 420px;
-      display: block;
-      margin: 2rem auto 1rem auto;
+      max-width: 260px;
+    }
+
+    .hours-banner {
+      font-weight: 700;
+      font-size: 1rem;
+      text-align: right;
     }
 
     .hero {
-      text-align: center;
-      padding: 2rem 0 3rem 0;
+      padding: 1rem 0 2rem 0;
     }
 
     .headline {
-      font-size: 2.4rem;
+      font-size: 2.2rem;
       font-weight: 800;
-      color: #111;
       margin-top: 1rem;
+      color: #000;
     }
 
-    .hours-top {
-      font-size: 1.2rem;
-      font-weight: 700;
+    .subline {
+      font-size: 1.1rem;
+      font-weight: 600;
       margin-top: 0.5rem;
       color: #000;
     }
 
-    .highlight {
-      color: #0056d6;
-      font-weight: 700;
-    }
-
     .hero-image {
       margin-top: 2rem;
-      border-radius: 14px;
+      border-radius: 12px;
+      width: 100%;
     }
 
     section {
-      padding: 4rem 0;
+      padding: 3rem 0;
     }
 
     footer {
@@ -59,9 +68,7 @@
 <body>
 
 <nav class="container-fluid">
-  <ul>
-    <li></li>
-  </ul>
+  <ul></ul>
   <ul>
     <li><a href="#hours">Hours</a></li>
     <li><a href="#location">Location</a></li>
@@ -71,52 +78,40 @@
 
 <main class="container">
 
-  <div class="hero">
+  <div class="top-bar">
     <img src="logo.jpg" alt="Concord Laundromat Logo" class="logo">
-
-    <div class="hours-top">
-      OPEN DAILY 6AM – 11PM • LAST WASH 10PM
+    <div class="hours-banner">
+      OPEN DAILY 6AM – 11PM<br>
+      LAST WASH 10PM
     </div>
+  </div>
 
+  <div class="hero">
     <div class="headline">
       Open Later Than Any Other Laundromat in the Area
     </div>
 
-    <img src="https://images.unsplash.com/photo-1581578017423-4f6f8d6f7d1d?auto=format&fit=crop&w=1400&q=80"
-         alt="Multicultural people doing laundry together"
-         class="hero-image">
+    <div class="subline">
+      Free Wi-Fi • Credit & Debit Cards Accepted • 10th Wash FREE with Credit Card • Hablamos Español
+    </div>
+
+    <img src="laundry.jpg" alt="Interior of Concord Laundromat" class="hero-image">
   </div>
 
   <section id="hours">
     <h2>Our Hours</h2>
     <p>
-      <strong>Monday – Sunday</strong><br>
+      Monday – Sunday<br>
       6:00 AM – 11:00 PM<br>
-      <span class="highlight">Last Wash: 10:00 PM</span>
+      Last Wash: 10:00 PM
     </p>
-  </section>
-
-  <section>
-    <h2>Why Customers Choose Us</h2>
-    <p>
-      ✔ Open later than anyone nearby<br>
-      ✔ Free Wi-Fi<br>
-      ✔ Clean & safe environment<br>
-      ✔ Credit & debit cards accepted<br>
-      ✔ <strong>Your 10th Wash is FREE when you use a credit card</strong><br>
-      ✔ Multicultural community – <strong>Hablamos Español</strong>
-    </p>
-
-    <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1400&q=80"
-         alt="Diverse smiling customers"
-         style="margin-top:2rem;border-radius:14px;">
   </section>
 
   <section id="location">
     <h2>Location</h2>
     <p>
       Concord, California<br>
-      📞 Customer Service: <strong>925-849-5190</strong>
+      Customer Service: 925-849-5190
     </p>
 
     <iframe 
@@ -132,8 +127,7 @@
 
 <footer class="container">
   <small>
-    © 2026 Concord Laundromat • 
-    <a href="tel:9258495190">925-849-5190</a>
+    © 2026 Concord Laundromat • 925-849-5190
   </small>
 </footer>
 
