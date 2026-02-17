@@ -10,45 +10,41 @@
   <style>
     body {
       background: #ffffff;
-      color: #000;
+      color: #000000;
     }
 
     .top-bar {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1rem 0 0.5rem 0;
+      padding-top: 1rem;
     }
 
     .logo {
-      max-width: 420px;   /* Bigger logo */
-      margin-left: 4rem;  /* Slightly centered */
+      max-width: 480px; /* BIGGER LOGO */
+      margin-left: 2rem;
     }
 
     .hours-banner {
       font-weight: 700;
       font-size: 1rem;
+      color: #000000;
       text-align: right;
-      color: #000;
       margin-right: 2rem;
     }
 
-    .hero {
-      padding: 0.5rem 0 2rem 0;
-    }
-
     .headline {
-      font-size: 2.6rem;
+      font-size: 2.4rem;
       font-weight: 800;
-      margin-top: 1rem;
-      color: #000;
+      margin-top: 1.5rem;
+      color: #000000;
     }
 
     .subline {
       font-size: 1.1rem;
       font-weight: 600;
       margin-top: 0.5rem;
-      color: #0b3d91;  /* dark blue */
+      color: #000000;
     }
 
     .hero-image {
@@ -58,4 +54,74 @@
     }
 
     section {
-      paddi
+      padding: 2.5rem 0;
+    }
+
+    h2 {
+      color: #000000;
+    }
+
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+      color: #000000;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="container-fluid">
+  <ul></ul>
+  <ul>
+    <li><a href="#location" style="color:#000000;">Location</a></li>
+    <li><a href="tel:9258495190" role="button">Call 925-849-5190</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <div class="top-bar">
+    <img src="logo.jpg" alt="Concord Laundromat Logo" class="logo">
+    <div class="hours-banner">
+      OPEN DAILY 6AM – 11PM<br>
+      LAST WASH 10PM
+    </div>
+  </div>
+
+  <div class="headline">
+    Open Later Than Any Other Laundromat in the Area
+  </div>
+
+  <div class="subline">
+    Free Wi-Fi • Credit & Debit Cards Accepted • 10th Wash FREE with Credit Card • Hablamos Español
+  </div>
+
+  <img src="interior.jpg" alt="Interior of Concord Laundromat" class="hero-image">
+
+  <section id="location">
+    <h2>Location</h2>
+    <p>
+      Concord, California<br>
+      Customer Service: 925-849-5190
+    </p>
+
+    <iframe 
+      src="https://www.google.com/maps?q=Concord,+CA&output=embed" 
+      width="100%" 
+      height="300"
+      style="border-radius:12px;"
+      loading="lazy">
+    </iframe>
+  </section>
+
+</main>
+
+<footer class="container">
+  <small>
+    © 2026 Concord Laundromat • 925-849-5190
+  </small>
+</footer>
+
+</body>
+</html>
