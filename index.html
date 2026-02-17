@@ -2,18 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Concord Laundromat | Open 6AM–11PM Daily | Last Wash 10PM</title>
-  <meta name="description" content="Concord Laundromat in Concord, CA. Open daily 6AM–11PM. Last wash 10PM. Free WiFi. Credit cards accepted. 10th wash FREE. Hablamos Español.">
+  <title>Concord Laundromat | Open 6AM–11PM Daily</title>
+  <meta name="description" content="Concord Laundromat in Concord, CA. Open daily 6AM–11PM. Last wash 10PM. Free WiFi. 10th wash FREE with credit card. Hablamos Español.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
   <style>
-    body { padding-top: 1rem; }
-    section { padding: 3rem 0; }
-    hgroup { margin-bottom: 1.5rem; }
-    iframe { border-radius: 10px; margin-top: 1rem; }
-    .highlight { color: #0a7cff; font-weight: 700; }
-    footer { padding: 2rem 0; text-align: center; }
-    .hero { text-align: center; padding: 2rem 0 3rem 0; }
+    body { background: #ffffff; }
+    .hero {
+      padding: 4rem 0;
+      text-align: center;
+    }
+    .logo {
+      max-width: 280px;
+      margin-bottom: 2rem;
+    }
+    .hero img.banner {
+      border-radius: 12px;
+      margin-top: 2rem;
+    }
+    .highlight {
+      font-weight: 700;
+      color: #0077ff;
+    }
+    section {
+      padding: 4rem 0;
+    }
+    footer {
+      padding: 2rem 0;
+      text-align: center;
+    }
   </style>
 </head>
 
@@ -31,91 +49,66 @@
 </nav>
 
 <main class="container">
-  <div class="grid">
-    <section>
 
-      <div class="hero">
-        <hgroup>
-          <h2>Open Later Than Any Other Laundromat in the Area</h2>
-          <h3>Open Daily 6AM – 11PM • Last Wash 10PM</h3>
-        </hgroup>
-      </div>
+  <div class="hero">
+    <img src="logo.jpg" alt="Concord Laundromat Logo" class="logo">
 
-      <p>
-        Welcome to <strong>Concord Laundromat</strong>, proudly serving our
-        diverse and multicultural community in Concord, California.
-        Clean, safe, and convenient — laundry on your schedule.
-      </p>
+    <h1>Open Later Than Any Other Laundromat in the Area</h1>
+    <p class="highlight">Open Daily 6AM – 11PM • Last Wash 10PM</p>
 
-      <h3 id="hours">Our Hours</h3>
-      <p>
-        <span class="highlight">Open Every Day: 6:00 AM – 11:00 PM</span><br>
-        <span class="highlight">Last Wash: 10:00 PM</span><br>
-        Monday – Sunday
-      </p>
-
-      <h3>Why Customers Choose Us</h3>
-      <p>
-        ✔ Open later than anyone else nearby<br>
-        ✔ Free Wi-Fi for customers<br>
-        ✔ Credit & debit cards accepted<br>
-        ✔ <strong>Your 10th Wash is FREE when you use a credit card</strong><br>
-        ✔ Clean, bright & safe environment<br>
-        ✔ Multicultural clientele — <strong>Hablamos Español</strong><br>
-        ✔ Friendly customer service
-      </p>
-
-      <h3>Loyalty Program</h3>
-      <p>
-        When you pay using your credit card, every wash is tracked automatically.
-        Your <strong>10th wash is FREE</strong>.
-      </p>
-
-      <h3 id="location">Location & Directions</h3>
-      <p>
-        📍 Concord, California<br>
-        📞 Customer Service: <strong>925-849-5190</strong><br>
-        Convenient parking available.
-      </p>
-
-      <iframe 
-        src="https://www.google.com/maps?q=Concord,+CA&output=embed" 
-        width="100%" 
-        height="300" 
-        loading="lazy">
-      </iframe>
-
-    </section>
+    <img src="https://images.unsplash.com/photo-1520975922284-9c1e6f546c8b?auto=format&fit=crop&w=1200&q=80"
+         alt="Multicultural people smiling at laundromat"
+         class="banner">
   </div>
+
+  <section>
+    <h2 id="hours">Our Hours</h2>
+    <p>
+      <strong>Monday – Sunday</strong><br>
+      6:00 AM – 11:00 PM<br>
+      <span class="highlight">Last Wash: 10:00 PM</span>
+    </p>
+  </section>
+
+  <section>
+    <h2>Why Customers Choose Us</h2>
+    <p>
+      ✔ Open later than anyone else nearby<br>
+      ✔ Free Wi-Fi<br>
+      ✔ Clean & safe environment<br>
+      ✔ Credit & debit cards accepted<br>
+      ✔ <strong>Your 10th Wash is FREE when you use a credit card</strong><br>
+      ✔ Multicultural community – <strong>Hablamos Español</strong>
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1598032895397-b9472444bf93?auto=format&fit=crop&w=1200&q=80"
+         alt="Diverse group of people together"
+         class="banner">
+  </section>
+
+  <section id="location">
+    <h2>Location</h2>
+    <p>
+      Concord, California<br>
+      📞 Customer Service: <strong>925-849-5190</strong>
+    </p>
+
+    <iframe 
+      src="https://www.google.com/maps?q=Concord,+CA&output=embed" 
+      width="100%" 
+      height="300"
+      style="border-radius:12px;"
+      loading="lazy">
+    </iframe>
+  </section>
+
 </main>
-
-<section aria-label="Subscribe example">
-  <div class="container">
-    <article>
-      <hgroup>
-        <h2>Stay Connected</h2>
-        <h3>Promotions • Community Updates</h3>
-      </hgroup>
-
-      <p>
-        📶 Free Wi-Fi Available In-Store<br>
-        💬 Se habla Español
-      </p>
-
-      <form class="grid">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email Address" required />
-        <button type="submit" onclick="event.preventDefault()">Join Now</button>
-      </form>
-
-    </article>
-  </div>
-</section>
 
 <footer class="container">
   <small>
-    <a href="tel:9258495190">Call 925-849-5190</a> • 
-    <a href="#">Open 6AM–11PM Daily (Last Wash 10PM)</a>
+    © 2026 Concord Laundromat • 
+    <a href="tel:9258495190">925-849-5190</a> • 
+    Open 6AM–11PM Daily
   </small>
 </footer>
 
