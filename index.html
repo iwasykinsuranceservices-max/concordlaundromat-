@@ -9,25 +9,46 @@
 
   <style>
     body { background: #ffffff; }
-    .hero {
-      padding: 4rem 0;
-      text-align: center;
-    }
+
     .logo {
-      max-width: 280px;
-      margin-bottom: 2rem;
+      max-width: 420px;
+      display: block;
+      margin: 2rem auto 1rem auto;
     }
-    .hero img.banner {
-      border-radius: 12px;
-      margin-top: 2rem;
+
+    .hero {
+      text-align: center;
+      padding: 2rem 0 3rem 0;
     }
-    .highlight {
+
+    .headline {
+      font-size: 2.4rem;
+      font-weight: 800;
+      color: #111;
+      margin-top: 1rem;
+    }
+
+    .hours-top {
+      font-size: 1.2rem;
       font-weight: 700;
-      color: #0077ff;
+      margin-top: 0.5rem;
+      color: #000;
     }
+
+    .highlight {
+      color: #0056d6;
+      font-weight: 700;
+    }
+
+    .hero-image {
+      margin-top: 2rem;
+      border-radius: 14px;
+    }
+
     section {
       padding: 4rem 0;
     }
+
     footer {
       padding: 2rem 0;
       text-align: center;
@@ -39,7 +60,7 @@
 
 <nav class="container-fluid">
   <ul>
-    <li><strong>Concord Laundromat</strong></li>
+    <li></li>
   </ul>
   <ul>
     <li><a href="#hours">Hours</a></li>
@@ -53,16 +74,21 @@
   <div class="hero">
     <img src="logo.jpg" alt="Concord Laundromat Logo" class="logo">
 
-    <h1>Open Later Than Any Other Laundromat in the Area</h1>
-    <p class="highlight">Open Daily 6AM – 11PM • Last Wash 10PM</p>
+    <div class="hours-top">
+      OPEN DAILY 6AM – 11PM • LAST WASH 10PM
+    </div>
 
-    <img src="https://images.unsplash.com/photo-1520975922284-9c1e6f546c8b?auto=format&fit=crop&w=1200&q=80"
-         alt="Multicultural people smiling at laundromat"
-         class="banner">
+    <div class="headline">
+      Open Later Than Any Other Laundromat in the Area
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1581578017423-4f6f8d6f7d1d?auto=format&fit=crop&w=1400&q=80"
+         alt="Multicultural people doing laundry together"
+         class="hero-image">
   </div>
 
-  <section>
-    <h2 id="hours">Our Hours</h2>
+  <section id="hours">
+    <h2>Our Hours</h2>
     <p>
       <strong>Monday – Sunday</strong><br>
       6:00 AM – 11:00 PM<br>
@@ -73,7 +99,7 @@
   <section>
     <h2>Why Customers Choose Us</h2>
     <p>
-      ✔ Open later than anyone else nearby<br>
+      ✔ Open later than anyone nearby<br>
       ✔ Free Wi-Fi<br>
       ✔ Clean & safe environment<br>
       ✔ Credit & debit cards accepted<br>
@@ -81,9 +107,9 @@
       ✔ Multicultural community – <strong>Hablamos Español</strong>
     </p>
 
-    <img src="https://images.unsplash.com/photo-1598032895397-b9472444bf93?auto=format&fit=crop&w=1200&q=80"
-         alt="Diverse group of people together"
-         class="banner">
+    <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1400&q=80"
+         alt="Diverse smiling customers"
+         style="margin-top:2rem;border-radius:14px;">
   </section>
 
   <section id="location">
@@ -107,8 +133,7 @@
 <footer class="container">
   <small>
     © 2026 Concord Laundromat • 
-    <a href="tel:9258495190">925-849-5190</a> • 
-    Open 6AM–11PM Daily
+    <a href="tel:9258495190">925-849-5190</a>
   </small>
 </footer>
 
