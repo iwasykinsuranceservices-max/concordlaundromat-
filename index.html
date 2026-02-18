@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Concord Laundromat | Open 6AM–11PM Daily</title>
+  <title>Concord Laundromat – Open Late 6AM–11PM | 3620 Willow Pass Rd, Concord CA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Concord Laundromat in Concord, CA. Open daily 6AM–11PM. Last wash 10PM. Free WiFi. 10th wash FREE with credit card. Hablamos Español.">
+  <meta name="description" content="Concord Laundromat located at 3620 Willow Pass Rd, Concord CA 94519. Open daily 6AM–11PM. Last wash 10PM. Free WiFi. 10th wash FREE. Hablamos Español.">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
+  <!-- Local Business Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Laundromat",
+    "name": "Concord Laundromat",
+    "image": "https://www.concordlaundromat.com/interior.JPG",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3620 Willow Pass Rd",
+      "addressLocality": "Concord",
+      "addressRegion": "CA",
+      "postalCode": "94519",
+      "addressCountry": "US"
+    },
+    "telephone": "925-849-5190",
+    "openingHours": "Mo-Su 06:00-23:00",
+    "url": "https://www.concordlaundromat.com"
+  }
+  </script>
 
   <style>
     body {
@@ -17,7 +39,6 @@
       padding: 1rem 2rem;
     }
 
-    /* Moves everything slightly UP on desktop */
     main.container {
       padding-top: 0.5rem;
     }
@@ -145,7 +166,6 @@
 <main class="container">
 
   <div class="top-bar" id="hours">
-    <!-- Cache-busting added ?v=2 -->
     <img src="logo.jpg?v=2" alt="Concord Laundromat Logo" class="logo">
     <div class="hours-banner">
       <div class="open-hours">
