@@ -33,10 +33,24 @@
     }
 
     .hours-banner {
-      font-weight: 700;
-      font-size: 1rem;
       text-align: right;
+    }
+
+    .open-hours {
+      font-weight: 800;
+      font-size: 1.15rem;
       color: #000000;
+    }
+
+    .last-wash {
+      display: inline-block;
+      margin-top: 0.4rem;
+      padding: 0.25rem 0.6rem;
+      background-color: #0b3d91;
+      color: #ffffff;
+      font-weight: 700;
+      border-radius: 6px;
+      font-size: 0.95rem;
     }
 
     .headline {
@@ -92,8 +106,12 @@
   <div class="top-bar" id="hours">
     <img src="logo.jpg" alt="Concord Laundromat Logo" class="logo">
     <div class="hours-banner">
-      OPEN DAILY 6AM – 11PM<br>
-      LAST WASH 10PM
+      <div class="open-hours">
+        OPEN DAILY 6AM – 11PM
+      </div>
+      <div class="last-wash">
+        LAST WASH 10PM
+      </div>
     </div>
   </div>
 
