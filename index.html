@@ -17,8 +17,9 @@
       padding: 1rem 2rem;
     }
 
+    /* Moves everything slightly UP on desktop */
     main.container {
-      padding-top: 2rem;
+      padding-top: 0.5rem;
     }
 
     .top-bar {
@@ -89,7 +90,7 @@
       color: #000000;
     }
 
-    /* -------- MOBILE FIXES -------- */
+    /* -------- MOBILE OPTIMIZATION -------- */
     @media (max-width: 768px) {
 
       nav.container-fluid {
@@ -125,10 +126,6 @@
       .hero-image {
         margin-top: 1rem;
       }
-
-      nav ul {
-        gap: 0.5rem;
-      }
     }
 
   </style>
@@ -148,7 +145,8 @@
 <main class="container">
 
   <div class="top-bar" id="hours">
-    <img src="logo.jpg" alt="Concord Laundromat Logo" class="logo">
+    <!-- Cache-busting added ?v=2 -->
+    <img src="logo.jpg?v=2" alt="Concord Laundromat Logo" class="logo">
     <div class="hours-banner">
       <div class="open-hours">
         OPEN DAILY 6AM – 11PM
